@@ -4,7 +4,9 @@
 const getProductNamesInLowerCase1 = arrayOfProducts => arrayOfProducts.map(product => product.name.toLowerCase());
 
 const getNameInSmallCase = product => product.name.toLowerCase();
-const getProductNamesInLowerCase = arrayOfProducts => arrayOfProducts.map(getNameInSmallCase);
+const getProductNamesInLowerCase2 = arrayOfProducts => arrayOfProducts.map(getNameInSmallCase);
+
+const getProductNamesInLowerCase = arrayOfProducts => arrayOfProducts.map(({name}) => name.toLowerCase());   // using destructuring
 
 const products = [
     { name: 'Lip Balm', stock: 100 },

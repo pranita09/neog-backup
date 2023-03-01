@@ -4,7 +4,9 @@
 const filterByGenre1 = arrayOfBooks => arrayOfBooks.filter(book => book.genre === "Science Fiction");
 
 const genreOfScienceFiction = book => book.genre === "Science Fiction";
-const filterByGenre = arrayOfBooks => arrayOfBooks.filter(genreOfScienceFiction);
+const filterByGenre2 = arrayOfBooks => arrayOfBooks.filter(genreOfScienceFiction);
+
+const filterByGenre = arrayOfBooks => arrayOfBooks.filter(({genre}) => genre === "Science Fiction");  // using destructuring
 
 const books = [
     {title: "The Hitchhiker's Guide to the Galaxy", author: "Douglas Adams", genre: "Science Fiction"},

@@ -4,7 +4,9 @@
 const filterByCityAndAge1 = arrayOfPeople => arrayOfPeople.filter(person => person.city === "Indore" && person.age > 70);
 
 const cityIndoreAgeMoreThan70 = person => person.city === "Indore" && person.age > 70;
-const filterByCityAndAge = arrayOfPeople => arrayOfPeople.filter(cityIndoreAgeMoreThan70);
+const filterByCityAndAge2 = arrayOfPeople => arrayOfPeople.filter(cityIndoreAgeMoreThan70);
+
+const filterByCityAndAge = arrayOfPeople => arrayOfPeople.filter(({age, city}) => city === "Indore" && age > 70);  // using destructuring
 
 const people = [
     { name: 'Ridhima', age: 75, city: 'Indore' },

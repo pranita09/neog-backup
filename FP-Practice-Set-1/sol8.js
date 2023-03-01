@@ -4,7 +4,9 @@
 const filterByAge1 = arrayOfPeople => arrayOfPeople.filter(person => person.age > 30);
 
 const ageMoreThan30 = person => person.age > 30;
-const filterByAge = arrayOfPeople => arrayOfPeople.filter(ageMoreThan30);
+const filterByAge2 = arrayOfPeople => arrayOfPeople.filter(ageMoreThan30);
+
+const filterByAge = arrayOfPeople => arrayOfPeople.filter(({age}) => age > 30);    // using destructuring
 
 const people = [
     { name: 'Rahul', age: 25 },

@@ -4,7 +4,9 @@
 const filterByScore1 = arrayOfStudents => arrayOfStudents.filter(student => student.score > 80);
 
 const scoreMoreThan80 = student => student.score > 80;
-const filterByScore = arrayOfStudents => arrayOfStudents.filter(scoreMoreThan80);
+const filterByScore2 = arrayOfStudents => arrayOfStudents.filter(scoreMoreThan80);
+
+const filterByScore = arrayOfStudents => arrayOfStudents.filter(({score}) => score > 80);  // using destructuring
 
 const students = [
     { name: 'Aditya', score: 85 },

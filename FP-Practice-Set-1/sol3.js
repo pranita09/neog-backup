@@ -3,10 +3,10 @@
 
 const getAges1 = arrayOfPeople => arrayOfPeople.map(person => person.age);
 
-// const getAges = arrayOfPeople => arrayOfPeople.map({age} => age)        // use destructuring
+const getAges = arrayOfPeople => arrayOfPeople.map(({age}) => age);        // using destructuring of object
 
 const ageOfPerson = person => person.age;
-const getAges = arrayOfPeople => arrayOfPeople.map(ageOfPerson);
+const getAges2 = arrayOfPeople => arrayOfPeople.map(ageOfPerson);
 
 const people = [
     { name: 'Ankit', age: 25 },

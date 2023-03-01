@@ -4,7 +4,9 @@
 const empWithHighSalaryAndAge = employee => employee.salary > 22000 && employee.age > 25;
 const filterBySalary1 = arrayOfEmployees => arrayOfEmployees.filter(empWithHighSalaryAndAge);
 
-const filterBySalary = arrayOfEmployees => arrayOfEmployees.filter(employee => employee.salary > 22000 && employee.age > 25);
+const filterBySalary2 = arrayOfEmployees => arrayOfEmployees.filter(employee => employee.salary > 22000 && employee.age > 25);
+
+const filterBySalary = arrayOfEmployees => arrayOfEmployees.filter(({age, salary}) => salary > 22000 && age > 25);
 
 const employees = [
     {name: "Abhay", age: 25, salary: 20000},
