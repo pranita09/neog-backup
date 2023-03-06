@@ -9,8 +9,18 @@ const books = [
 ];
   
 // Your code here
-const getTitlesWithMoreThan500Pages = arrayOfBooks => arrayOfBooks.filter(({pageCount}) => pageCount > 700).map(({title}) => title);
-  
+const getTitlesWithMoreThan500Pages1 = arrayOfBooks => arrayOfBooks.filter(({pageCount}) => pageCount > 700).map(({title}) => title);
+
+// alternative using reduce only
+const getTitlesWithMoreThan500Pages = arrOfBooks => arrOfBooks.reduce((acc, {title, pageCount})=>{
+    if(pageCount > 700){
+      acc[acc.length] = title;     // acc.push(title);
+      return acc;
+    }else{
+      return acc;
+    }
+  }, [])
+
 const booksWithMoreThan500Pages = getTitlesWithMoreThan500Pages(books);
 console.log(booksWithMoreThan500Pages); 
 // Output: ["The Lord of the Rings"]

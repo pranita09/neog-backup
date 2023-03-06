@@ -9,7 +9,17 @@ const cars = [
 ];
   
 // Your code here
-const getCarModel = arrayOfCars => arrayOfCars.filter(({year}) => year > 2012).map(({model}) => model);
+const getCarModel1 = arrayOfCars => arrayOfCars.filter(({year}) => year > 2012).map(({model}) => model);
+
+// alternative using reduce only
+const getCarModel = arrOfCars => arrOfCars.reduce((acc, {model, year})=> {
+  if(year > 2012){
+    acc[acc.length] = model;     // acc.push(model);
+    return acc;
+  }else{
+    return acc;
+  }
+} , [])
   
 const carModels = getCarModel(cars);
 console.log(carModels);
