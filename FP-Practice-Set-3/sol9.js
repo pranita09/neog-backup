@@ -12,7 +12,7 @@ const cars = [
 const getCarModel1 = arrayOfCars => arrayOfCars.filter(({year}) => year > 2012).map(({model}) => model);
 
 // alternative using reduce only
-const getCarModel = arrOfCars => arrOfCars.reduce((acc, {model, year})=> {
+const getCarModel2 = arrOfCars => arrOfCars.reduce((acc, {model, year})=> {
   if(year > 2012){
     acc[acc.length] = model;     // acc.push(model);
     return acc;
@@ -20,6 +20,9 @@ const getCarModel = arrOfCars => arrOfCars.reduce((acc, {model, year})=> {
     return acc;
   }
 } , [])
+
+//alternate
+const getCarModel = arrOfCars => arrOfCars.reduce((acc, {model, year})=> year>2012 ? [...acc, model] : acc, [])
   
 const carModels = getCarModel(cars);
 console.log(carModels);
