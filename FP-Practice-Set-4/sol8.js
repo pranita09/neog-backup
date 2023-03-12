@@ -11,5 +11,10 @@ const people = [
 // Your code here
 const getAverageAge = people => people.reduce((acc, {age})=> acc+age/people.length,0);
 
+// ---> 0 + 25/4 = 0 + 6.25 = 6.25
+// 6.25 + 30/4 = 6.25 + 7.5 = 13.75
+// 13.75 + 35/4 = 13.75 + 8.75 = 22.5
+// 22.5 + 40/4 = 22.5 + 10 = 32.5
+
 console.log(getAverageAge(people));
 // Output: { averageAge: 32.5 }

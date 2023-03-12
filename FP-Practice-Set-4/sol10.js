@@ -11,7 +11,8 @@ const countStrings = strings => strings.reduce((acc, curr)=> {
         acc[curr] = 1;
     }
     // console.log(acc[curr])
-    return {...acc, [curr]: acc[curr]};
+    // return {...acc, [curr]: acc[curr]};
+    return acc;
 },{})
 
 console.log(countStrings(fruits));
@@ -22,4 +23,4 @@ const frequencyOfWords1 = strings => strings.reduce((acc, curr)=>{
     return acc;
 },{})
 
-console.log(frequencyOfWords1(fruits));
+// console.log(frequencyOfWords1(fruits));
