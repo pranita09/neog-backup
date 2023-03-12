@@ -9,7 +9,11 @@ const people = [
 ];
 
 // Your code here
-const getAverageAge = people => people.reduce((acc, {age})=> acc+age/people.length,0);
+const getAverageAge = people => people
+    .reduce((acc, {age})=> 
+    (
+        {averageAge: acc.averageAge+(age/people.length)}),{averageAge: 0}
+    );
 
 // ---> 0 + 25/4 = 0 + 6.25 = 6.25
 // 6.25 + 30/4 = 6.25 + 7.5 = 13.75
