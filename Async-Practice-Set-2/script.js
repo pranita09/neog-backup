@@ -333,7 +333,7 @@
 const fakeFetch = (url) => {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
-        if (!url === "https://example.com/welcome") {
+        if (!(url === "https://example.com/welcome")) {
           reject({
             status: 511,
             message: "Network auth required"
