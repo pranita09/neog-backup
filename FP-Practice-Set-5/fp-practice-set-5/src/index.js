@@ -2,26 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { ShoppingCart } from "./App";
-import { WatchList, Items, BooksList, EmployeesList, RecipeListWithMakers } from "./App";
-import { Cars, StudentsList, Movies, StoreItems, RecipeList } from "./App";
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
-    {/* <ShoppingCart /> */}
-    {/* <WatchList /> */}
-    {/* <Items /> */}
-    {/* <BooksList /> */}
-    {/* <EmployeesList /> */}
-    {/* <RecipeListWithMakers /> */}
-    {/* <Cars /> */}
-    {/* <StudentsList /> */}
-    {/* <Movies /> */}
-    {/* <StoreItems /> */}
-    {/* <RecipeList /> */}
   </React.StrictMode>
 );
 

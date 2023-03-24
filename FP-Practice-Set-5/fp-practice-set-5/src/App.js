@@ -4,6 +4,17 @@ import './App.css';
 export default function App() {
   return (
     <div className="App">
+    {/* <ShoppingCart /> */}
+    {/* <WatchList /> */}
+    {/* <Items /> */}
+    {/* <BooksList /> */}
+    {/* <EmployeesList /> */}
+    {/* <RecipeListWithMakers /> */}
+    {/* <Cars /> */}
+    {/* <StudentsList /> */}
+    {/* <Movies /> */}
+    {/* <StoreItems /> */}
+    <RecipeList />
     </div>
   );
 }
