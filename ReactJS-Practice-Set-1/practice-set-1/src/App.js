@@ -5,6 +5,7 @@ import ProductList from './ProductList';
 import ImageComponent from './ImageComponent';
 import ProductData from './ProductData';
 import StudentsDetails from './StudentDetails';
+import EmployeeDetails from './EmployeeDetails';
 
 const backgroundColor = 'lightgreen';
 const color = 'darkgreen';
@@ -27,6 +28,65 @@ const student = {
   maths: 80,
   computers: 70
 };
+const employees = [
+  {
+    name: "Jack Smith",
+    level: 2,
+    dept: "Tech",
+    designation: "Manager",
+    salary: 24000
+  },
+  {
+    name: "Mary Robbins",
+    level: 3,
+    dept: "Fin",
+    designation: "Manager",
+    salary: 28000
+  },
+  {
+    name: "Steve Williams",
+    level: 4,
+    dept: "Ops",
+    designation: "President",
+    salary: 35000
+  },
+  {
+    name: "Bob Andrews",
+    level: 1,
+    dept: "Fin",
+    designation: "Trainee",
+    salary: 16500
+  },
+  {
+    name: "Dave Martin",
+    level: 2,
+    dept: "Fin",
+    designation: "Manager",
+    salary: 21700
+  },
+  {
+    name: "Julia Clarke",
+    level: 3,
+    dept: "Ops",
+    designation: "Manager",
+    salary: 26900
+  },
+  {
+    name: "Kathy Jones",
+    level: 4,
+    dept: "Tech",
+    designation: "President",
+    salary: 42500
+  },
+  {
+    name: "Tom Bresnan",
+    level: 2,
+    dept: "Tech",
+    designation: "Manager",
+    salary: 22200
+  }
+];
+
 
 function App() {
   return (
@@ -44,6 +104,9 @@ function App() {
       <ProductData productList={products}/>
 
       <StudentsDetails students={student} />
+
+      <EmployeeDetails employees={employees}/>
+      done with que 8, 9, 10, 11 in this component only
 
     </div>
   );
