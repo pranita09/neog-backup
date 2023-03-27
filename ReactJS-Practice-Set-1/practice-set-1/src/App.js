@@ -4,6 +4,7 @@ import EmployeeCard from './EmployeeCard';
 import ProductList from './ProductList';
 import ImageComponent from './ImageComponent';
 import ProductData from './ProductData';
+import StudentsDetails from './StudentDetails';
 
 const backgroundColor = 'lightgreen';
 const color = 'darkgreen';
@@ -20,6 +21,12 @@ const products = [
   { name: 'Maggi', quantity: 41, sales: 22 },
   { name: '5Star', quantity: 7, sales: 9 },
 ]
+const student = {
+  name: "John Doe",
+  english: 90,
+  maths: 80,
+  computers: 70
+};
 
 function App() {
   return (
@@ -35,6 +42,8 @@ function App() {
       <ImageComponent link={imageLink} caption={caption}/>
 
       <ProductData productList={products}/>
+
+      <StudentsDetails students={student} />
 
     </div>
   );
