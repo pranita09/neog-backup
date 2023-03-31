@@ -7,6 +7,19 @@ import ProductData from './ProductData';
 import StudentsDetails from './StudentDetails';
 import EmployeeDetails from './EmployeeDetails';
 
+// practice-set-2
+import Greeting from "./practice-set-2/QuestionOne";
+import Product from "./practice-set-2/QuestionTwo";
+import UserProfile from "./practice-set-2/QuestionThree";
+import Gadgets from "./practice-set-2/QuestionFour";
+import Phones from "./practice-set-2/QuestionFive";
+import Article from "./practice-set-2/QuestionSix";
+import About from "./practice-set-2/QuestionSeven";
+import MyGadgets from "./practice-set-2/QuestionEight";
+import ColorPicker from "./practice-set-2/QuestionNine";
+import Todo from "./practice-set-2/QuestionTen";
+import {userData, products1, products2, title, content, heading, name, learning, products3, todoItems} from './practice-set-2/Data';
+
 const backgroundColor = 'lightgreen';
 const color = 'darkgreen';
 const borderRadius = '5px';
