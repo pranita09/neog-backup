@@ -105,21 +105,32 @@ function App() {
   return (
     <div className="App">
 
-      <EmployeeCard name={"John Doe"} designation={"Software Engineer"} workExperience={"10 Yrs"} />
+      {/* <EmployeeCard name={"John Doe"} designation={"Software Engineer"} workExperience={"10 Yrs"} /> */}
 
-      <button style={{backgroundColor, color, borderRadius, padding}} >Start</button>     
+      {/* <button style={{backgroundColor, color, borderRadius, padding}} >Start</button>      */}
       {/* object shorthand property */}
 
-      <ProductList products={items} productsHeader={"Stationary Items"} />
+      {/* <ProductList products={items} productsHeader={"Stationary Items"} /> */}
 
-      <ImageComponent link={imageLink} caption={caption}/>
+      {/* <ImageComponent link={imageLink} caption={caption}/> */}
 
-      <ProductData productList={products}/>
+      {/* <ProductData productList={products}/> */}
 
-      <StudentsDetails students={student} />
+      {/* <StudentsDetails students={student} /> */}
 
-      <EmployeeDetails employees={employees}/>
-      done with que 8, 9, 10, 11 in this component only
+      {/* <EmployeeDetails employees={employees}/> */}
+      {/* done with que 8, 9, 10, 11 in this component only */}
+
+      <Todo todoItems={todoItems} />
+      <ColorPicker />
+      <MyGadgets gadgetsList={products3} />
+      <About heading={heading} name={name} learning={learning} />
+      <Article title={title} content={content} />
+      <Phones gadgetsList={products2} />
+      <Gadgets gadgetsList={products1} />
+      <UserProfile user={userData} />
+      <Product name={"Air Conditioner"} price={"50000"} />
+      <Greeting name={"neoGrammers"} />
 
     </div>
   );
