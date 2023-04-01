@@ -4,7 +4,7 @@
   flex-direction: row;
 }
 .component{
-  width: 60%;
+  width: 50%;
   border: 1px solid black;
   border-radius: 5px;
  margin: 1rem;
