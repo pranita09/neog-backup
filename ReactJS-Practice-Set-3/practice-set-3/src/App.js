@@ -10,10 +10,12 @@ import ListingItems from './set-4/QuestionThree';
 import ToDoList from './set-4/QuestionFour';
 import TodoList from './set-4/QuestionFive';
 import BooksByGenre from './set-4/QuestionSix';
+import LivesInGame from './set-4/QuestionSeven';
 
 function App() {
   return (
     <div className="App">
+    <LivesInGame />
     <BooksByGenre booksData={books} />
     <TodoList todoItemsData={todoItems2}/>
     <ToDoList toDoItemsData={todoItems} />
