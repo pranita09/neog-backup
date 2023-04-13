@@ -108,3 +108,17 @@ div{
     margin: 10px;
     border-radius: 5px;
 }
+
+/* Question Seven */
+.que-seven input{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #cccccc;
+    margin: 10px 0;
+    padding: 0 20px;
+    background-color: #ffffff;
+    color: #999999;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
