@@ -1,6 +1,3 @@
-*{
-    /* text-align: center; */
-}
 
 div{
     margin: 2rem;
@@ -39,4 +36,34 @@ div{
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 5px;
+}
+
+/* Question Three */
+.que-three .list{
+    list-style: none;
+    font-size: 18px;
+    color: #333333;
+    font-weight: 800;
+    padding: 5px;
+}
+.que-three .list li{
+    padding: 15px;
+    border: 2px dashed red;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+/* Question Four */
+.que-four input{
+    border: 1px solid #cccccc;
+    padding: 10px;
+    font-size: 18px;
+}
+.que-four button{
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-left: 10px;
 }
