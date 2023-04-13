@@ -72,6 +72,7 @@ div{
 .que-five .card{
     width: 350px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
     background-color: #ffffff;
     margin: 20px;
 }
@@ -87,3 +88,23 @@ div{
 }
 
 /* Question Six */
+.que-six .card{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 20px;
+}
+.que-six .card h1{
+    font-size: 24px;
+    color: #333333;
+    margin: 10px;
+}
+.que-six .card button{
+    background-color: #333333;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
