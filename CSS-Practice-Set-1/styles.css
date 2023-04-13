@@ -1,10 +1,10 @@
 
 div{
     margin: 2rem;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 1rem;
-    width: 50%;
-    height: 50%;
+    /* width: 50%; */
+    /* height: 50%; */
 }
 
 /* Question One */
@@ -67,3 +67,23 @@ div{
     padding: 10px 20px;
     margin-left: 10px;
 }
+
+/* Question Five */
+.que-five .card{
+    width: 350px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #ffffff;
+    margin: 20px;
+}
+.que-five .card h1{
+    font-size: 24px;
+    color: #333333;
+    margin: 10px;
+}
+.que-five .card p{
+    font-size: 18px;
+    color: #666666;
+    margin: 10px;
+}
+
+/* Question Six */
