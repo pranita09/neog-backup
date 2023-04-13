@@ -1,0 +1,42 @@
+*{
+    /* text-align: center; */
+}
+
+div{
+    margin: 2rem;
+    border: 1px solid black;
+    padding: 1rem;
+    width: 50%;
+    height: 50%;
+}
+
+/* Question One */
+.que-one{
+    font-family: serif;
+}
+
+.que-one h1{
+    font-size: 36px;
+    color: #333333;
+}
+
+.que-one p{
+    font-size: 18px;
+    color: #666666;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+/* Question Two */
+.que-two .list{
+    list-style-type: none;
+    font-size: 18px;
+    color: #333333;
+    padding: 5px;
+}
+.que-two .list li{
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
