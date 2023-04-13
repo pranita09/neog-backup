@@ -1,15 +1,19 @@
-
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 div{
-    margin: 2rem;
+    margin: auto;
     /* border: 1px solid black; */
     padding: 1rem;
-    /* width: 50%; */
-    /* height: 50%; */
+    width: 500px;
 }
 
 /* Question One */
 .que-one{
     font-family: serif;
+    text-align: left;
 }
 
 .que-one h1{
